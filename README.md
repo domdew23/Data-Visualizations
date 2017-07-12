@@ -6,14 +6,36 @@
 
 ### Prerequisites
 
+To run this project you must have Python 3.x installed and matplotlib installed. [Click Here to download Python](https://www.python.org).
 
 #### - Installing matplotlib on Linux 
 
+##### Python 3.x
+
+* $ sudo apt-get install python3-matplotlib
+* $ sudo apt-get install python3.5-dev python3.5-tk tk-dev
+* $ sudo apt_get install libfreetype6-dev g++
+* $ pip install --user matplotlib
+
 #### - Installing matplotlib on OS X
+
+* $ pip install --user matplotlib
 
 #### - Installing matplotlib on Windows
 
+* > pip install matplotlib
+
+#### Testing matplotlib
+
+To test if matplotlib installed correctly start a terminal session with python3 and import matplotlib:
+* $ python3
+* >>> import matplotlib
+* >>>
+
 ## Built With
+
+* [Python](python.org)
+* [matplotlib](matplotlib.org)
 
 ## Author
 
