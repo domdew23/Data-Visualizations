@@ -36,6 +36,7 @@ To test if matplotlib installed correctly start a terminal session with python3 
 
 * [Python](python.org)
 * [matplotlib](matplotlib.org)
+* [Pygal](pygal.org)
 
 ## Author
 
