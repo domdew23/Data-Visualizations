@@ -1,4 +1,4 @@
-![](https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif){:height="700px" width="2100px"}
+![](https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif =2100x700)
 
 # Data Visualizations
 
