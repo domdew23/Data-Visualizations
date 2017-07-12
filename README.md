@@ -23,14 +23,14 @@ To run this project you must have Python 3.x installed and matplotlib installed.
 
 #### - Installing matplotlib on Windows
 
-* &gt pip install matplotlib
+* \< pip install matplotlib
 
 #### Testing matplotlib
 
 To test if matplotlib installed correctly start a terminal session with python3 and import matplotlib:
 * $ python3
-* &gt&gt&gt import matplotlib
-* &gt&gt&gt 
+* \<\<\< import matplotlib
+* \<\<\<
 
 ## Built With
 
