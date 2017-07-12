@@ -1,4 +1,5 @@
-![](https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif =2100x700)
+<img src="https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif" alt="bg" width="2100" height="700">
+![](https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif)
 
 # Data Visualizations
 
