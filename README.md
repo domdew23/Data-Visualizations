@@ -1,4 +1,4 @@
-![](bg2.jpg?raw=True "Data Visualizations")
+![](https://media.giphy.com/media/3oKIPpFhwsMNrRIjN6/source.gif)
 
 # Data Visualizations
 
