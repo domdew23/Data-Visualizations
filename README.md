@@ -1,4 +1,4 @@
-![](https://media.giphy.com/media/3oKIPpFhwsMNrRIjN6/source.gif)
+![](https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif)
 
 # Data Visualizations
 
