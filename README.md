@@ -1,4 +1,4 @@
-![](pic-here?raw=True "Data Visualizations")
+![](/bg.gif?raw=True "Data Visualizations")
 
 # Data Visualizations
 
