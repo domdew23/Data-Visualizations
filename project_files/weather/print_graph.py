@@ -2,7 +2,7 @@ import csv
 from matplotlib import pyplot as plt
 from datetime import datetime
 
-def run(filename, title):
+def run(filename, title, temp='F'):
 # Get dates, high and low temperatures from file
 
 	with open(filename, encoding='utf8') as f:
@@ -23,7 +23,7 @@ def run(filename, title):
 		plt.title(title, fontsize=20)
 		plt.xlabel('', fontsize=16)
 		fig.autofmt_xdate()
-		plt.ylabel("Temperature (F)", fontsize=16)
+		plt.ylabel("Temperature (" + temp + ")", fontsize=16)
 		plt.tick_params(axis='both', which='major', labelsize=16)
 
 		new_filename = filename.replace('.csv', '')
