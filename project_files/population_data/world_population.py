@@ -52,6 +52,7 @@ wm.add('10 million - 1 billion', cc_pops2)
 wm.add('> 1 billion', cc_pops3)
 
 wm.render_to_file('graphs/world_populations.svg')
+wm.render_to_file('graphs/world_populations.png')
 
 def print_sorted(d, x):
 	sorted_dict = OrderedDict(sorted(d.items(), key=lambda t: t[x]))
