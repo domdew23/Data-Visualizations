@@ -1,4 +1,4 @@
-<img src="world_populations.PNG">
+<img src="world_populations.PNG" height="400">
 
 # Data Visualizations
 
