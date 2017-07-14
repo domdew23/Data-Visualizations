@@ -1,4 +1,4 @@
-<img src="project_files/population_data/graphs/world_populations.png" alt="bg" width="2100" height="350">
+<img src="project_files\population_data\graphs/world_populations.png" alt="bg" width="900" height="350">
 
 # Data Visualizations
 
