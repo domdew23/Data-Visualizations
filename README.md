@@ -1,4 +1,4 @@
-<img src="world_populations.png" alt="bg" width="900" height="350">
+<img src="bg.gif" alt="bg" width="900" height="350">
 
 # Data Visualizations
 
