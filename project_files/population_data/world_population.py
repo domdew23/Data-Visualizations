@@ -5,12 +5,14 @@ from country_codes import get_country_code
 from pygal.style import RotateStyle, LightColorizedStyle
 from pygal.maps import world as maps
 
+
 def build_dict(country_name, population, pop_dict):
 	code = get_country_code(country_name)
 	if code:
 		pop_dict[code] = population
 	else:
 		pass
+
 
 def group_countries(cc_populations):
 	# Group countries into 3 population levels
@@ -23,6 +25,14 @@ def group_countries(cc_populations):
 		else:
 			cc_pops3[cc] = pop
 	return cc_pops1, cc_pops2, cc_pops3
+
+
+def print_sorted(d, x):
+	sorted_dict = OrderedDict(sorted(d.items(), key=lambda t: t[x]))
+
+	for c,p in sorted_dict.items():
+		print(c + ": " + str(p))
+
 
 # Load the data into a list
 filename = 'json_files/population_data.json'
@@ -52,13 +62,7 @@ wm.add('10 million - 1 billion', cc_pops2)
 wm.add('> 1 billion', cc_pops3)
 
 wm.render_to_file('graphs/world_populations.svg')
-wm.render_to_file('graphs/world_populations.png')
 
-def print_sorted(d, x):
-	sorted_dict = OrderedDict(sorted(d.items(), key=lambda t: t[x]))
-
-	for c,p in sorted_dict.items():
-		print(c + ": " + str(p))
 
 
 
